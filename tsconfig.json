@@ -1,0 +1,12 @@
+{
+    "include": ["./src/**/*"],
+    "compilerOptions": {
+        "baseUrl": "src",
+        "allowJs": true,
+        "isolatedModules": true,
+        "strict": true,
+        "paths": {
+            "@/*": ["./*"]
+        }
+    }
+}
